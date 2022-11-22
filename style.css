@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -133,9 +133,14 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
-
+.icon-md {
+    width: 30%;
+    color: rgb(255, 255, 255);
+    
+    
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -239,7 +244,7 @@ a:hover {
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
+.l-bloc a:hover,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
@@ -250,6 +255,10 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+}
+.icon-md {
+    font-size: 30px;
+    
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -700,8 +709,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 800px;
+    margin: auto;
 }
 
 h2 {
@@ -771,15 +780,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f87132;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f87437;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +806,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f87132!important;
 }
 
 .ltc-atomic-tangerine:hover {
