@@ -156,7 +156,7 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-    -webkit-appearance: button;
+    -webkit-apparance: button;
     cursor: pointer
 }
 
@@ -192,12 +192,12 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    -webkit-apparance: textfield
 }
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-apparance: none
 }
 
 fieldset {
@@ -3192,7 +3192,7 @@ textarea.form-control {
 }
 
 input[type=search] {
-    -webkit-appearance: none
+    -webkit-apparance: none
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -7056,7 +7056,7 @@ button.list-group-item-danger.active:hover {
 }
 
 button.close {
-    -webkit-appearance: none;
+    -webkit-apparance: none;
     padding: 0;
     cursor: pointer;
     background: 0 0;
