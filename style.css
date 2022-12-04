@@ -788,6 +788,9 @@ h4 {
     color: #ffffff!important;
 }
 
+.tc-black {
+    color: black!important;
+}
 .tc-orange {
     color: #F3976C;
 }
@@ -990,6 +993,8 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
+        
+        width: 80%;
         padding: 40px 0;
     }
     .bloc-sm,
@@ -1048,5 +1053,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-thumb {
+        margin: 0 auto;
     }
 }
